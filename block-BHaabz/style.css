@@ -1,0 +1,349 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* general */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 32px;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Header */
+header{
+    background-color: #323346;
+    padding: 20px 0;
+    color: white;
+}
+.header-nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+h3{
+    font-size: 20px;
+    font-weight: 600px;
+}
+/* Hero */
+.hero{
+    padding: 150px 0;
+    background: url("assets/banner.svg") 0 100% repeat-x,linear-gradient(#323346,#323346);
+    
+}
+h2{
+    font-size: 36px;
+    color: white;
+    padding: 10px 0;
+}
+.hero p{
+    color: #e96c77;
+    text-align: center;
+}
+.hero .btn{
+    background-color: #e96c77;
+    color: rgb(230, 222, 222);
+    text-align: center;
+   margin-top: 40px;
+    margin-left: 50px;
+}
+/* section */
+.section1{
+    background-color: #efe4ef;
+  
+}
+.article1{
+    padding-top: 40px;
+}
+h4{
+    font-size: 20px;
+    padding: 30px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+.article1 h4{
+    text-align: center;
+
+}
+.article-para{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.article1 p{
+    font-size: 12px;
+
+}
+
+.list{
+    list-style-position:inside ;
+}
+.flex1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 20px;
+}
+.block{
+    flex: 0 1 26%;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 200px;
+}
+.block p{
+    font-size: 12px;
+    margin: 20px 0;
+    padding: 0 30px;
+}
+.block a{
+    color: white;
+    
+   
+}
+.block span{
+    display: inline-block;
+    background-color: #e96c77;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+
+
+}
+h5{
+    padding-top: 20px;
+}
+/* section2 */
+.section2{
+    background-color: #e96c77;
+    color: white;
+}
+.wrap{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;
+    
+}
+.block1{
+    flex: 0 1 45%;
+    background-color: #d68188;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 200px;
+    margin-top: 30px;
+}
+.block1 p{
+    font-size: 12px;
+    margin: 20px 0;
+    padding: 0 30px;
+}
+.block1 a{
+    color: white;
+    
+   
+}
+.block1 span{
+    display: inline-block;
+    background-color: #665a5b;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* section3 */
+.block3{
+    flex: 0 1 30%;
+    text-align: center;
+    font-size: 12px;
+}
+.block3 img{
+    width: 100%;
+}
+.block3 h5{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.block3 .btn{
+    border: 1px solid grey;
+    padding: 5px 15px;
+    margin: 20px 0;
+}
+/* section4 */
+.send-btm{
+    background-color: #e96c77;
+    color: rgb(230, 222, 222);
+    text-align: center;
+    font-weight: 700;
+    padding: 5px 10px;
+    margin: 10px 0;
+   
+}
+.reset-btm{
+    border: 1px solid grey;
+    padding: 5px 10px;
+    margin: 10px 0;
+    margin-left: 5px;
+
+}
+* .col-left{
+    display: flex;
+    align-self: flex-start;
+}
+.col-left, .col-right{
+    flex: 0 1 25%;
+}
+.col-right li{
+    padding: 10px 0;
+    border-top: 1px solid rgb(170, 167, 167);
+    
+
+}
+.col-right span{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.contact-box{
+    width: 60%;
+    margin: 0 auto;
+    align-items: stretch;
+    background-color: white;
+    padding: 20px 20px;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+.form1{
+    padding-top:5px;
+    
+}
+.form{
+    padding-bottom: 5px;
+}
+.p2{
+    margin-bottom: 40px;
+}
+/* footer */
+footer{
+    background-color: #cec7c7
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.footer-list li{
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgb(151, 144, 144);
+}
+.li{
+    border-left: 1px solid gray;
+    padding-left: 5px;
+}
+.footer{
+    font-size: 12px;
+    color: rgb(151, 144, 144);
+    text-align: center;
+    padding: 20px 0;
+
+}
+/* dropdown menu */
+.submenu{
+    position: absolute;
+    background-color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+   
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    display: none;
+    top: 20px;
+
+}
+.submenu a{
+    color: gray;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+.submenu li{
+    margin: 8px 0;
+}
+.submenu-box{
+    position: relative;
+}
+.submenu-box:hover .submenu{
+    display: inline-block;
+}
